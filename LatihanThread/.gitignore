@@ -1,0 +1,9 @@
+# VSCode build output
+bin/
+
+# Databases
+data/*.db
+
+# OS junk
+.DS_Store
+Thumbs.db
