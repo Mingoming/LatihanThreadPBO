@@ -1,9 +1,13 @@
-# VSCode build output
+# Build output
 bin/
+out/
 
-# Databases
-data/*.db
+# Java compiled files
+*.class
 
-# OS junk
+# Temp
+sources.txt
+
+# OS files
 .DS_Store
 Thumbs.db
