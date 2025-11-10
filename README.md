@@ -60,18 +60,15 @@ Database credentials can be modified in `DB.java`.
 
 1. Compile the project:
    Linux/macOS:
+   ```bash
+   javac -cp lib/mysql-connector-j-9.5.0.jar -d bin src/*.java`
+   ```
+   Windows:
+   ```bash
+   javac -cp "lib\mysql-connector-j-9.5.0.jar" -d bin src\*.java`
+   ```
 
-```bash
-javac -cp lib/mysql-connector-j-9.5.0.jar -d bin src/*.java`
-```
-
-Windows:
-
-```bash
-javac -cp "lib\mysql-connector-j-9.5.0.jar" -d bin src\*.java`
-```
-
-2. Run the application
+2. Run the application:
    Linux/macOS
    ```bash
    java -cp bin:lib/mysql-connector-j-9.5.0.jar Main
